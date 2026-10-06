@@ -1,0 +1,39 @@
+#!/bin/sh
+# MIDNIGHT MODIFICATION of the Impeccable launcher concept.
+# No network download is permitted by this wrapper.
+set -eu
+
+probe_ok() {
+  case "$(IMPECCABLE_LAUNCHER_PROBE=1 "$1" engine-probe 2>/dev/null || true)" in
+    impeccable-engine*) return 0 ;;
+  esac
+  return 1
+}
+
+dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+: "${IMPECCABLE_SKILL_DIR:=$(CDPATH= cd -- "$dir/.." && pwd)}"
+: "${IMPECCABLE_SELF:=$0}"
+export IMPECCABLE_SKILL_DIR IMPECCABLE_SELF
+
+if [ -n "${IMPECCABLE_BIN:-}" ] && [ -x "${IMPECCABLE_BIN}" ] && probe_ok "${IMPECCABLE_BIN}"; then
+  exec "${IMPECCABLE_BIN}" "$@"
+fi
+
+case "$(uname -s 2>/dev/null || echo unknown)" in
+  Darwin) os=darwin ;;
+  Linux) os=linux ;;
+  *) os=unknown ;;
+esac
+case "$(uname -m 2>/dev/null || echo unknown)" in
+  arm64|aarch64) arch=arm64 ;;
+  x86_64|amd64) arch=x64 ;;
+  *) arch=unknown ;;
+esac
+
+candidate="$dir/bin/$os-$arch/impeccable"
+if [ "$os" != unknown ] && [ "$arch" != unknown ] && [ -x "$candidate" ] && probe_ok "$candidate"; then
+  exec "$candidate" "$@"
+fi
+
+echo "impeccable: HOLD_IMPECCABLE_ENGINE_REQUIRED; MIDNIGHT safe launcher will not download an engine automatically" >&2
+exit 127

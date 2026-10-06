@@ -1,0 +1,9 @@
+schema_version: "1.0"
+skill: find-skills
+qualification_status: SHADOW_QUALIFIED
+qualified_hub_sha: 777df0385902d5667650764ec2ab61413cbf0fb0
+skill_blob: c69d76bcf82430883491f27de3a5c399cf8b163c
+exact_head_ci_run: 37260967155
+license: MIT
+source_repository: Melanciano/MIDNIGHT-HUB-GOLDEN
+source_distribution_rule: FROZEN_QUALIFIED_REVISION

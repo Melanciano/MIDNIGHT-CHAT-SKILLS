@@ -1,0 +1,55 @@
+schema_version: "1.0"
+distribution: MIDNIGHT_CHAT_SKILLS
+candidate: false
+current_stable_release: skills-2026.10.05.1
+skills:
+  find-skills:
+    status: SHADOW_QUALIFIED
+    path: skills/find-skills
+    qualified_hub_sha: 777df0385902d5667650764ec2ab61413cbf0fb0
+    skill_blob: c69d76bcf82430883491f27de3a5c399cf8b163c
+    exact_head_ci_run: 37260967155
+    license: MIT
+    provenance: skills/find-skills/PROVENANCE.yaml
+  grill-me:
+    status: SHADOW_QUALIFIED
+    path: skills/grill-me
+    qualified_hub_sha: 647eeaac26285a7e0ccaa8f16a4322a47ea796e1
+    skill_blob: 6090b815d636a5d651f6fae3974187b0d1953bdd
+    exact_head_ci_run: 37261152979
+    license: MIT
+    provenance: skills/grill-me/PROVENANCE.yaml
+    dependency: grilling
+  grilling:
+    status: DEPENDENCY_QUALIFIED_WITH_GRILL_ME
+    path: skills/grilling
+    qualified_hub_sha: 647eeaac26285a7e0ccaa8f16a4322a47ea796e1
+    skill_blob: 4a7fb4d373fc125b89a3c4e2a15b88167654c43f
+    exact_head_ci_run: 37261152979
+    license: MIT
+    provenance: skills/grilling/PROVENANCE.yaml
+  impeccable:
+    status: SHADOW_QUALIFIED_SAFE_CORE
+    path: skills/impeccable
+    qualified_hub_sha: 564ff452d0843905a211661875102f9785d9e13a
+    skill_blob: eea879d3f1af3f90fedbbfe97ea921bd160baa43
+    exact_head_ci_run: 37261472475
+    license: Apache-2.0
+    provenance: skills/impeccable/PROVENANCE.yaml
+  skill-creator:
+    status: SHADOW_QUALIFIED
+    path: skills/skill-creator
+    qualified_hub_sha: 00691fe12e127890a60268bbc0e6a368f9b1fd3c
+    skill_blob: 0d207b1fd4e53e5e0f1cf269935e225a54ba84f7
+    exact_head_ci_run: 37262153154
+    license: UPSTREAM_NOTICES_PRESERVED
+    provenance: skills/skill-creator/PROVENANCE.yaml
+  midnight-auto-advance:
+    status: SHADOW_QUALIFIED
+    path: skills/midnight-auto-advance
+    qualified_hub_sha: e3272ad97c14fe145e9d01806f738f2b9c57c6cf
+    skill_blob: dc49ad05ab257f2b14e4b0112b1700e932e9f59e
+    exact_head_ci_run: 37352105377
+    license: FIRST_PARTY
+    provenance: skills/midnight-auto-advance/PROVENANCE.yaml
+    public_profile: skills/midnight-auto-advance/PUBLIC_PROFILE.md

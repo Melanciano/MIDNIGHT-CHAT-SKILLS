@@ -1,0 +1,9 @@
+schema_version: "1.0"
+skill: midnight-auto-advance
+qualification_status: SHADOW_QUALIFIED
+qualified_hub_sha: e3272ad97c14fe145e9d01806f738f2b9c57c6cf
+skill_blob: dc49ad05ab257f2b14e4b0112b1700e932e9f59e
+exact_head_ci_run: 37352105377
+license: FIRST_PARTY
+source_repository: Melanciano/MIDNIGHT-HUB-GOLDEN
+source_distribution_rule: FROZEN_QUALIFIED_REVISION

@@ -1,0 +1,9 @@
+schema_version: "1.0"
+skill: grill-me
+qualification_status: SHADOW_QUALIFIED
+qualified_hub_sha: 647eeaac26285a7e0ccaa8f16a4322a47ea796e1
+skill_blob: 6090b815d636a5d651f6fae3974187b0d1953bdd
+exact_head_ci_run: 37261152979
+license: MIT
+source_repository: Melanciano/MIDNIGHT-HUB-GOLDEN
+source_distribution_rule: FROZEN_QUALIFIED_REVISION

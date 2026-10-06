@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "release": "skills-2026.10.05.1",
+  "distribution": "MIDNIGHT_CHAT_SKILLS",
+  "source_staging_head": "9275940b714e53e6f7fd9b00e0b0d24bd2c1fbb4",
+  "files": [
+    {
+      "path": "GPT_CHAT_LOADER.md",
+      "sha256": "1a0e8db0d45c83a9144a72a00c6f324ed4488bdd9905f15a3147254b3da3d31e"
+    },
+    {
+      "path": "LICENSES.md",
+      "sha256": "05900cf8454e6df17cfdcfd364e598310c37b9fc85094e9ba69888b63d7412d6"
+    },
+    {
+      "path": "README.md",
+      "sha256": "379e35bc7102f499795135ac9be2bd4d8fc0e76274002d8db21902235eebbb8f"
+    },
+    {
+      "path": "skills/find-skills/LICENSE.upstream.txt",
+      "sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca"
+    },
+    {
+      "path": "skills/find-skills/PROVENANCE.yaml",
+      "sha256": "4089e90b2977b47fd4510193a4aece4aff6ab1939f0064c11c8d045269ebad35"
+    },
+    {
+      "path": "skills/find-skills/SKILL.md",
+      "sha256": "0da16cf87a9217d196307f4fcca990e8c5a090db2181fa772729a8541af248be"
+    },
+    {
+      "path": "skills/find-skills/references/upstream.md",
+      "sha256": "db27801228c02cd7092c05465d81013f08fba011bbfd7fd65e50728a807ac9a3"
+    },
+    {
+      "path": "skills/find-skills/scripts/audit_skill_candidate.py",
+      "sha256": "1f30b2d773c8e2a9d22a14a2c4aa92e37ba39545c426dd0fc07ef7f6eb902dca"
+    },
+    {
+      "path": "skills/grill-me/LICENSE.upstream.txt",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+    },
+    {
+      "path": "skills/grill-me/PROVENANCE.yaml",
+      "sha256": "073b67a416d932f342959d27926ea05a70b28504b9f33ab7503e75c1c5d358ca"
+    },
+    {
+      "path": "skills/grill-me/SKILL.md",
+      "sha256": "7b4153c0190398a095889c23e636b06ee89e3bb77a8a10f1ca5136329b9504c2"
+    },
+    {
+      "path": "skills/grill-me/agents/openai.yaml",
+      "sha256": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b"
+    },
+    {
+      "path": "skills/grill-me/references/upstream.md",
+      "sha256": "ccf65e5d7d4d1b8b34909f4a5da38fec0fc8ea0ab2d98a571cd9fbdde27714af"
+    },
+    {
+      "path": "skills/grilling/PROVENANCE.yaml",
+      "sha256": "fcbb8e73c0bf7d71a0f7e88551b8ad3fda280c7c5b179d2dda180102bc78d436"
+    },
+    {
+      "path": "skills/grilling/SKILL.md",
+      "sha256": "957d945a759c586e558c411470483cb6f9d5d45265e92653ad020704145db817"
+    },
+    {
+      "path": "skills/grilling/agents/openai.yaml",
+      "sha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b"
+    },
+    {
+      "path": "skills/impeccable/LICENSE.upstream.txt",
+      "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812"
+    },
+    {
+      "path": "skills/impeccable/NOTICE.upstream.md",
+      "sha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb"
+    },
+    {
+      "path": "skills/impeccable/PROVENANCE.yaml",
+      "sha256": "63df6673425c8a55168f281090a06087c4f0520eb04232ce3b8dc293b881c91b"
+    },
+    {
+      "path": "skills/impeccable/SKILL.md",
+      "sha256": "230c0ce67ada732c1934e976caf8733327548ea176fbe557ece62ea34d052e7d"
+    },
+    {
+      "path": "skills/impeccable/references/playbooks.md",
+      "sha256": "10918a47e4cf77bb43f2be5c9c6c28b436780a781de96aeb87bdc699523e8a3a"
+    },
+    {
+      "path": "skills/impeccable/references/upstream.md",
+      "sha256": "631a88db5b91f1f49c4c966882b0ee26c8344c07472c8c4b61f44137ce184862"
+    },
+    {
+      "path": "skills/impeccable/scripts/VERSION",
+      "sha256": "66d60356172ccafdd334fca9bf33243c8409216a733dcde0d66a24fd70ee8132"
+    },
+    {
+      "path": "skills/impeccable/scripts/command-metadata.json",
+      "sha256": "e8720f3aa41135211cc58cc299a39eeda86c75651f4279cc1ede8db10dcc0584"
+    },
+    {
+      "path": "skills/impeccable/scripts/impeccable",
+      "sha256": "5c03d47e38d93653977234cd7cde5e11585c4d817b231682e82979699f4e1b76"
+    },
+    {
+      "path": "skills/index.yaml",
+      "sha256": "8fea4c21b65131e9c5b0097dbc576cb65ecdc9055c06400bef40fac315798f04"
+    },
+    {
+      "path": "skills/midnight-auto-advance/PROVENANCE.yaml",
+      "sha256": "803410372be347adbe585579b1be36c0906d517d0bb54c2adf8c943c9d04d6ce"
+    },
+    {
+      "path": "skills/midnight-auto-advance/PUBLIC_PROFILE.md",
+      "sha256": "9813008470dbc949f726285d3e02920de57c383c4a386e881d3e5a70da672bb1"
+    },
+    {
+      "path": "skills/midnight-auto-advance/SKILL.md",
+      "sha256": "2b8de5c83ad39be69b4a2eed7bf4d32923e0947e4dc8b883eda324c5e30fe065"
+    },
+    {
+      "path": "skills/midnight-auto-advance/agents/openai.yaml",
+      "sha256": "155c13fa8b34f96850ed335dd269174eb3a5fd1771fcd108d77c4d275ac5cb51"
+    },
+    {
+      "path": "skills/midnight-auto-advance/references/evals.md",
+      "sha256": "ad340639b6e4e3da00ac826fc6a7ac0a452258ad4c609be0f7dd61bdcf5c5010"
+    },
+    {
+      "path": "skills/skill-creator/LICENSE.anthropic.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+    },
+    {
+      "path": "skills/skill-creator/LICENSE.openai.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "skills/skill-creator/PROVENANCE.yaml",
+      "sha256": "1a9f2fa02f006c1ecfeadd3b2bb3fc6869b729267c26a9b7ad56b7fe78398714"
+    },
+    {
+      "path": "skills/skill-creator/SKILL.md",
+      "sha256": "2c77006a193c3b659186a93b6ec1a244f54f59b2ca33674aed1f333829652b62"
+    },
+    {
+      "path": "skills/skill-creator/agents/openai.yaml",
+      "sha256": "cce953746016b84b49e4a17ba6416e9c6e86b995595383ef4531c9391c77cae7"
+    },
+    {
+      "path": "skills/skill-creator/eval-viewer/generate_review.py",
+      "sha256": "fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb"
+    },
+    {
+      "path": "skills/skill-creator/eval-viewer/viewer.html",
+      "sha256": "a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa"
+    },
+    {
+      "path": "skills/skill-creator/references/analyzer.md",
+      "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a"
+    },
+    {
+      "path": "skills/skill-creator/references/compatibility.md",
+      "sha256": "6d829cf7dab7b0feb2b91d1d45056ad7136f8fe30bcffb3861ec342cf8e22c50"
+    },
+    {
+      "path": "skills/skill-creator/references/grader.md",
+      "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a"
+    },
+    {
+      "path": "skills/skill-creator/references/openai_yaml.md",
+      "sha256": "9fb5928b7f4a746fdb39df503ebbd7a659d5e64b47f85a60626aa1a03fd76b17"
+    },
+    {
+      "path": "skills/skill-creator/references/schemas.md",
+      "sha256": "8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f"
+    },
+    {
+      "path": "skills/skill-creator/references/upstream.md",
+      "sha256": "4246f21cff7b6ccaa3b79792a87700cb45ac9b6587851757405757610b886760"
+    },
+    {
+      "path": "skills/skill-creator/scripts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/skill-creator/scripts/aggregate_benchmark.py",
+      "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa"
+    },
+    {
+      "path": "skills/skill-creator/scripts/generate_openai_yaml.py",
+      "sha256": "b8f6be33a9d72dd7a8da02e7a9fffea23dc79e94862e6dd6358b57a8899d8f73"
+    },
+    {
+      "path": "skills/skill-creator/scripts/init_skill.py",
+      "sha256": "bcb8982d3f033a094f2f1be43123ac8537e2562d25d8ba4d8ef2196ae514d96d"
+    },
+    {
+      "path": "skills/skill-creator/scripts/package_skill.py",
+      "sha256": "1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f"
+    },
+    {
+      "path": "skills/skill-creator/scripts/quick_validate.py",
+      "sha256": "6cc9dc3199c935916cf6f73fcbbbb0e3bb1b58c8f5109fefa499978908164f51"
+    }
+  ]
+}

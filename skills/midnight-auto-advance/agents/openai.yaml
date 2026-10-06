@@ -1,0 +1,6 @@
+interface:
+  display_name: "MIDNIGHT AutoAdvance"
+  short_description: "Continue verified MIDNIGHT frontiers autonomously"
+  default_prompt: "Use $midnight-auto-advance to continue this authorized MIDNIGHT mission through successive verified frontiers until completion or a real governed blocker."
+policy:
+  allow_implicit_invocation: false
